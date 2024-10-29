@@ -11,14 +11,32 @@ Here’s how to create a shared folder from an Ubuntu host to a Manjaro guest. Y
 
 1. **Select settings on the virtual machine.**
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2018-05-06/2.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 2. **Choose Shared Folders** and click the icon to add a new shared folder. 
    - In the "Add Share" window, enter the directory path of the folder you want to share with the guest in the "Folder Path" field, and provide a name for the folder in the "Folder Name" field. 
    - Check **Auto-mount** and **Make Permanent**, then click **OK**.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2018-05-06/3.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 3. **Optional Settings:**
    - Check **Read-only** if you want the guest to have read-only permission, without write or edit access to the content in the folder.
    - Check **Auto-mount** to automatically mount the folder (in this case, the Manjaro guest might not auto-mount).
    - Check **Make Permanent** so that the auto-mount will persist even after the guest is restarted.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2018-05-06/4.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 4. **Next, open a terminal in the guest (Manjaro), and type:**
    ```bash
