@@ -2,13 +2,13 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-email: you@example.com
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+title: Journey of Knowledge # the website title (if blank, full name will be used instead)
+first_name: Mifta Nur
+middle_name: 
+last_name: Farid
+email: miftanurfarid@lecturer.itk.ac.id
+description: # > # the ">" symbol means to ignore newlines until "footer_text:"
+  Sebuah ruang di mana saya berbagi catatan perjalanan dalam mengajar, penelitian, dan bimbingan akademik.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
