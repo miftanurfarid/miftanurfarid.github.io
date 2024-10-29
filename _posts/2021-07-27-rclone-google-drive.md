@@ -11,14 +11,16 @@ categories: linux
 
 1. **Install Rclone**
 
-Since I am using Manjaro, which is Arch-based, to install Rclone:
+   Since I am using Manjaro, which is Arch-based, to install Rclone:
+
    ```bash
    sudo pacman -S rclone
    ```
 
 2. **Create a Folder for Mounting the Drive**
 
-Here, I create a folder in my home directory named `mydrive`:
+   Here, I create a folder in my home directory named `mydrive`:
+   
    ```bash
    mkdir ~/mydrive
    ```
