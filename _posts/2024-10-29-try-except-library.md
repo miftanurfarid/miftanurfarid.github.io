@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Menggunakan Try-Except untuk Instalasi Otomatis Library Python yang Diperlukan
-date: 2024-10-29 13:32:13
-description: Postingan ini membahas cara menggunakan blok try-except untuk memastikan library Python yang diperlukan terpasang otomatis. Dengan skrip sederhana, Anda bisa memeriksa dan menginstal library seperti `matplotlib`, `numpy`, dan `librosa` langsung dari kode Anda.
+date: 2024-10-29
+description: Postingan ini membahas cara menggunakan blok try-except untuk memastikan library Python yang diperlukan terpasang otomatis.
 tags: python try-except
 categories: tips-dan-trik-python
 tabs: true
