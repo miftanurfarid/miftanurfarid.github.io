@@ -4,8 +4,7 @@ title: Using Try-Except for Automatic Installation of Required Python Libraries
 date: 2024-10-28 15:06:00
 description: This post discusses how to use try-except blocks to ensure that required Python libraries are installed automatically.
 tags: python try-except
-categories: tips-dan-trik-python
-tabs: true
+categories: python
 ---
 
 To ensure that required libraries like `matplotlib`, `numpy`, and `librosa` are installed, you can use a `try-except` block to check for imports and install them using `subprocess`. Here’s an example implementation:
