@@ -7,8 +7,6 @@ tags: linux manjaro grub
 categories: linux
 ---
 
-### Blinking Cursor on Black Screen Before Entering Manjaro GRUB
-
 It has become a habit of mine to quickly shut down my laptop after a long day of work by using the terminal emulator and running the command:
 
 ```bash
