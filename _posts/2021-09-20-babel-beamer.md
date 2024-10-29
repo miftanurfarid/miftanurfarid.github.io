@@ -3,8 +3,8 @@ layout: post
 title: Using Indonesian Babel and Figure Numbering in Beamer Presentations
 date: 2021-09-20 15:06:00
 description: Learn how to configure your LaTeX Beamer presentations to use Indonesian language settings and numbered figure captions.
-tags: python try-except
-categories: python
+tags: latex beamer babel
+categories: latex
 ---
 
 When creating presentations in LaTeX using the Beamer class, you may want to tailor your document to specific languages or formats. For those creating presentations in Indonesian, utilizing the `babel` package with the appropriate language option is essential. Additionally, numbering figures can enhance the clarity and professionalism of your slides. 
