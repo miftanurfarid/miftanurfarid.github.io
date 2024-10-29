@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Menggunakan Try-Except untuk Instalasi Otomatis Library Python yang Diperlukan
-date: 2024-10-29
+date: 2024-10-28 15:06:00
 description: Postingan ini membahas cara menggunakan blok try-except untuk memastikan library Python yang diperlukan terpasang otomatis.
 tags: python try-except
 categories: tips-dan-trik-python
