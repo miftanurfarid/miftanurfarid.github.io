@@ -4,7 +4,7 @@ title: Installing Octave 4.2.0 on Ubuntu 16.04
 date: 2017-05-17 15:06:00
 description: This post provides a step-by-step guide on how to install Octave 4.2.0 on Ubuntu 16.04, including downloading the source, installing dependencies, and configuring the environment.
 tags: linux octave ubuntu
-categories: linux octave
+categories: linux software
 ---
 
 **Installing Octave 4.2.0 on Ubuntu 16.04**

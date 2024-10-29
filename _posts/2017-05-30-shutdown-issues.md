@@ -4,10 +4,8 @@ title: Fixing Slow Shutdown Issues on Ubuntu 16.04
 date: 2017-05-30 15:06:00
 description: This post outlines a solution for speeding up the shutdown process on Ubuntu 16.04 by disabling the cups-browsed service, which can cause delays during shutdown.
 tags: linux ubuntu
-categories: linux ubuntu
+categories: linux
 ---
-
-### Solution for Slow Shutdown on Ubuntu 16.04
 
 Recently, my laptop running Ubuntu 16.04 has been experiencing a problem where the shutdown process takes an unusually long time.
 
