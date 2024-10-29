@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using Try-Except for Automatic Installation of Required Python Libraries
-date: 2024-10-28 15:06:00
+date: 2024-10-29 15:06:00
 description: This post discusses how to use try-except blocks to ensure that required Python libraries are installed automatically.
 tags: python try-except
 categories: python
