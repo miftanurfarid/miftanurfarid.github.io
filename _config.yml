@@ -2,9 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Journey of Knowledge # the website title (if blank, full name will be used instead)
-first_name: Mifta
-middle_name: Nur
+title: blank # the website title (if blank, full name will be used instead)
+first_name: M.
+middle_name: N.
 last_name: Farid
 email: miftanurfarid@lecturer.itk.ac.id
 description: Sebuah ruang di mana saya berbagi catatan perjalanan dalam mengajar, penelitian, dan bimbingan akademik. # the ">" symbol means to ignore newlines until "footer_text:"
