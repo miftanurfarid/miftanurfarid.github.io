@@ -35,7 +35,14 @@ E = mc^2 & \text{foo} \\
 \end{document}
 ```
 
-<img src="assets/img/2021-09-27-09-26-41.png" width="300" height="200">
+$$
+\[
+\begin{rcases*}
+E = mc^2 & \text{foo} \\
+\int x-3\, dx & \text{barbaz}
+\end{rcases*} y = f(x)
+\]
+$$
 
 
 In this example, the `rcases*` environment is used to create a brace on the right side of the cases. The `&` symbol is used to align the contents of each case, while the `\\` command separates each case line.
