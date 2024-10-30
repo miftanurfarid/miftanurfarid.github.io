@@ -3,7 +3,7 @@ layout: post
 title: Resolving PackageKit Blocking Zypper in OpenSUSE
 date: 2022-07-06 20:06:00
 description: Steps to stop PackageKit from interfering with Zypper package management in OpenSUSE.
-tags: linux packagekit upensuse service
+tags: linux packagekit opensuse service
 categories: linux
 ---
 
