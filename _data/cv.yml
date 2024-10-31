@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Mifta Nur Farid
     - name: Date of Birth
-      value: 14th March 1879
+      value: 15th July 1991
     - name: Languages
-      value: English, German
+      value: Indonesian
 
 - title: Education
   type: time_table
