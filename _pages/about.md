@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: miftanurfarid[at]lecture.itk.ac.id
+subtitle: miftanurfarid[at]lecturer.itk.ac.id
 
 profile:
   align: right
