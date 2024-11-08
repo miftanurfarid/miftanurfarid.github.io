@@ -125,4 +125,4 @@ This issue occurred again after a system update:
 
 **Sources:**
 - [Manjaro Wiki: Restore the GRUB Bootloader](https://wiki.manjaro.org/index.php/Restore_the_GRUB_Bootloader)
-- [Manjaro Forum: Using LiveCD v17.0.1 as GRUB to Boot OS with Broken Bootloader](https://forum.manjaro.org/t/using-livecd-v17-0-1-as-grub-to-boot-os-with-broken-bootloader/24916)
+- [~~Manjaro Forum: Using LiveCD v17.0.1 as GRUB to Boot OS with Broken Bootloader~~](~~https://forum.manjaro.org/t/using-livecd-v17-0-1-as-grub-to-boot-os-with-broken-bootloader/24916~~)
