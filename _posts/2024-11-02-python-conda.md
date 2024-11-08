@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Membuat python environment di jupyterhub
+title: Membuat Python Environment di JupyterHub
 date: 2024-11-02 09:00:00
-description: Tulisan ini menjelaskan tentang cara membuat python environment di jupyterhub yang memiliki akses terbatas pada sistem operasinya
+description: Tulisan ini menjelaskan tentang cara membuat Python Environment di JupyterHub yang memiliki akses terbatas pada sistem operasinya
 tags: python environment jupyterhub
 categories: python
-thumbnail: assets/img/2024/20241108_101801.png
+thumbnail: assets/img/2024/20241108_094801.png
 ---
 
 JupyterHub umumnya memberikan akses terbatas pada sistem operasinya. Sehingga untuk melakukan instalasi python versi tertentu cukup rumit. Berikut ini adalah cara yang saya gunakan untuk membuat python environment di jupyterhub dengan versi python tertentu.
