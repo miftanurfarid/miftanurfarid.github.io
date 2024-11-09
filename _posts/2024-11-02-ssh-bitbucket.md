@@ -7,4 +7,4 @@ tags: git github bitbucket ssh
 categories: git
 ---
 
-Terakhir kali saya menggunakan Bitbucket di tahun 2018. Saat itu saya sedang mengerjakan tesis dan beberapa project bersama rekan saya di Lab. 
+Terakhir kali saya menggunakan Bitbucket di tahun 2018. Saat itu saya sedang mengerjakan tesis dan beberapa project bersama rekan saya di Lab. Kemudian beberapa hari yang lalu, saya kembali menggunakannya karena kebutuhan untuk mengambil beberapa dokumen di repository tesis.
