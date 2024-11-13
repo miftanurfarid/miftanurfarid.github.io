@@ -45,5 +45,5 @@ Sekarang jika saya melakukan penelaahan kembali ABI Version-nya maka **GLIBCXX_3
 </div>
 
 **Catatan**:
-- Ganti `<username` sesuai dengan username sistem operasi linux anda.
+- Ganti `<username>` sesuai dengan username sistem operasi linux anda.
 - Ganti juga `<environment_name>` dengan nama python environment yang anda buat melalui miniconda atau conda.
