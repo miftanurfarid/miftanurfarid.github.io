@@ -1,8 +1,8 @@
 ---
 layout: post
 title: GLIBCXX not found
-date: 2024-11-13 13:10:00
-description: Saat kita menggunakan Miniconda sebagai Python environment, maka standard library yang kita gunakan sesuai dengan environment tersebut. Oleh karena itu, terkadang kita mengalami beberapa ABI version yang tidak terdapat di standard library. Tulisan ini membahas solusi untuk permasalahan ABI version yang tidak ada di standard library.
+date: 2024-11-13 09:00:00
+description: Saat kita menggunakan Miniconda sebagai Python environment, maka standard library yang kita gunakan sesuai dengan environment tersebut. Oleh karena itu, terkadang kita mengalami beberapa ABI version yang tidak terdapat di standard library. Tulisan ini membahas solusi untuk permasalahan tersebut.
 tags: python standard library miniconda conda environment
 categories: python
 thumbnail: assets/img/2024/20241113_141136.png
