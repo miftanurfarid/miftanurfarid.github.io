@@ -6,6 +6,9 @@ description: Tulisan ini menjelaskan tentang cara membuat Python Environment di 
 tags: python environment jupyterhub
 categories: python
 thumbnail: assets/img/2024/20241108_094801.png
+images:
+  slider: true
+---
 ---
 
 JupyterHub umumnya memberikan akses terbatas pada sistem operasinya. Sehingga untuk melakukan instalasi python versi tertentu cukup rumit. Berikut ini adalah cara yang saya gunakan untuk membuat python environment di jupyterhub dengan versi python tertentu.
