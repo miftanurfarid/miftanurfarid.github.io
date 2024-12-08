@@ -14,15 +14,15 @@ Berikut ini adalah cara untuk membuat folder Downloads secara otomatis menghapus
 
 1. Hapus folder Downloads.
 
-```bash
-rm rf ~/Downloads
-```
+   ```bash
+   rm rf ~/Downloads
+   ```
 
 2. Membuat symbolic link dari folder Trash ke folder Downloads
 
-```bash
-ln -s /home/fafa/.local/share/Trash/files ~/Downloads
-```
+   ```bash
+   ln -s /home/fafa/.local/share/Trash/files ~/Downloads
+   ```
 
 3. Mengatur folder Trash untuk menghapus isinya secara berkala. Pada tulisan ini, saya menggunakan desktop environment berupa KDE
 
