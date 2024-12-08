@@ -11,14 +11,14 @@ Berbeda dengan tulisan sebelumnya, tulisan ini akan menjelaskan cara untuk membu
 
 1. Hapus folder Downloads.
 
-```bash
-rm rf ~/Downloads
-```
+    ```bash
+    rm rf ~/Downloads
+    ```
 
 2. Membuat symbolic link dari folder Trash ke folder Downloads
 
-```bash
-ln -s /tmp /home/username/Downloads
-```
+    ```bash
+    ln -s /tmp /home/username/Downloads
+    ```
 
 **Catatan**: `username` perlu diganti dengan username yang anda gunakan
