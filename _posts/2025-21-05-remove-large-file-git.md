@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Gagal Push ke GitHub karena File Terlalu Besar? Begini Cara Mengatasinya Tanpa Git LFS
+title: Mengatasi Gagal Push ke GitHub karena File Terlalu Besar Tanpa Git LFS
 date: 2025-21-05 09:00:00
 description: Panduan singkat untuk mengatasi error push GitHub karena file terlalu besar, tanpa perlu menggunakan Git LFS atau menghapus file dari komputer.
 tags: ["linux", "git", "github"]
-categories: git
+categories: linux
 ---
 
 Pernahkah kamu mengalami error saat melakukan `git push` ke GitHub seperti ini?
