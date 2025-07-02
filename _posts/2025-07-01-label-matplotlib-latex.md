@@ -7,7 +7,7 @@ tags: ["python", "matplotlib", "latex"]
 categories: latex
 ---
 
-Apakah kamu pernah membuat grafik di Python menggunakan matplotlib dan ingin menampilkan simbol matematika seperti $ x $ , $ f(x) $, atau integral seperti $ \int_a^b f(x)\,dx $ ? 
+Apakah kamu pernah membuat grafik di Python menggunakan matplotlib dan ingin menampilkan simbol matematika seperti $$ x $$ , $$ f(x) $$, atau integral seperti $$ \int_a^b f(x)\,dx $$ ? 
 
 Secara default, matplotlib mendukung sintaks LaTeX secara internal untuk membuat label terlihat seperti dalam dokumen matematika profesional. Kamu hanya perlu membungkus ekspresi matematika dengan tanda dolar (`$...$`), dan jika ingin hasil yang **benar-benar mirip LaTeX asli**, kamu bisa mengaktifkan dukungan LaTeX penuh dengan `usetex=True`.
 
