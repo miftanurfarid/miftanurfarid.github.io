@@ -3,7 +3,7 @@ layout: post
 title: Menampilkan Label LaTeX di Matplotlib
 date: 2025-07-02 09:00:00
 description: Cara mudah menampilkan simbol atau persamaan matematika LaTeX pada label plot matplotlib dengan dukungan usetex.
-tags: ["linux", "git", "github"]
+tags: ["python", "matplotlib", "latex"]
 categories: linux
 ---
 
