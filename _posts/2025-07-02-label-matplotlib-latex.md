@@ -3,8 +3,8 @@ layout: post
 title: Menampilkan Label LaTeX di Matplotlib
 date: 2025-07-02 09:00:00
 description: Cara mudah menampilkan simbol atau persamaan matematika LaTeX pada label plot matplotlib dengan dukungan usetex.
-tags: ["python", "matplotlib", "latex"]
-categories: python
+tags: ["linux", "git", "github"]
+categories: linux
 ---
 
 Apakah kamu pernah membuat grafik di Python menggunakan matplotlib dan ingin menampilkan simbol matematika seperti \( x \), \( f(x) \), atau integral seperti \( \int_a^b f(x)\,dx \)? 
