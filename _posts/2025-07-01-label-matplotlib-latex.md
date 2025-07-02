@@ -13,6 +13,17 @@ Secara bawaan, matplotlib mendukung sintaks LaTeX secara internal untuk membuat 
 
 Apa perbedaan antara hanya menggunakan tanda dolar dan mengaktifkan dukungan LaTeX penuh dengan `usetex=True`?
 
+<div class="row mt-3">
+  <div class="col-md-6">
+    <p class="text-center"><strong>Tanpa usetex</strong></p>
+    {% include figure.liquid loading="eager" path="assets/img/2025/tanpa_usetex.png" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-md-6">
+    <p class="text-center"><strong>Dengan usetex</strong></p>
+    {% include figure.liquid loading="eager" path="assets/img/2025/dengan_usetex.png" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+
 Kode Python tanpa menggunakan `usetex`
 
 ```python
@@ -28,19 +39,9 @@ plt.grid(True)
 plt.show()
 ```
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/2025/tanpa_usetex.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 
-Berikut adalah tampilan gambar saat menggunakan `usetex`
+Kode Python menggunakan `usetex`
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/2025/dengan_usetex.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 
 ```python
 import matplotlib.pyplot as plt
