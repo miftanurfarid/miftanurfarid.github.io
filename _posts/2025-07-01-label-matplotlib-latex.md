@@ -7,15 +7,53 @@ tags: ["python", "matplotlib", "latex"]
 categories: latex
 ---
 
-Apakah kamu pernah membuat grafik di Python menggunakan matplotlib dan ingin menampilkan simbol matematika seperti $$ x $$ , $$ f(x) $$, atau integral seperti $$ \int_a^b f(x)\,dx $$ ? 
+Apakah kamu pernah membuat grafik di Python menggunakan matplotlib dan ingin menampilkan simbol matematika seperti $$ x $$, $$ f(x) $$, atau integral seperti $$ \int_a^b f(x)\,dx $$? 
 
-Secara default, matplotlib mendukung sintaks LaTeX secara internal untuk membuat label terlihat seperti dalam dokumen matematika profesional. Kamu hanya perlu membungkus ekspresi matematika dengan tanda dolar (`$...$`), dan jika ingin hasil yang **benar-benar mirip LaTeX asli**, kamu bisa mengaktifkan dukungan LaTeX penuh dengan `usetex=True`.
+Secara bawaan, matplotlib mendukung sintaks LaTeX secara internal untuk membuat label tampak seperti dalam dokumen matematika profesional. Kamu hanya perlu membungkus ekspresi matematika dengan tanda dolar (`$...$`). Jika ingin hasil yang **benar-benar menyerupai LaTeX asli**, kamu dapat mengaktifkan dukungan LaTeX penuh dengan `usetex=True`.
 
-## Cara Mengaktifkan LaTeX di Matplotlib
+Apa perbedaan antara hanya menggunakan tanda dolar dan mengaktifkan dukungan LaTeX penuh dengan `usetex=True`?
 
-Langkah pertama adalah mengatur konfigurasi matplotlib agar menggunakan LaTeX untuk merender teks:
+Kode Python tanpa menggunakan `usetex`
 
 ```python
+import matplotlib.pyplot as plt
+
+plt.plot([0, 1], [0, 1])
+
+plt.xlabel('$x$')
+plt.ylabel('$f(x)$')
+
+plt.title('$y = \int_a^b f(x)\,dx$')
+plt.grid(True)
+plt.show()
+```
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2025/tanpa_usetex.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+Berikut adalah tampilan gambar saat menggunakan `usetex`
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2025/dengan_usetex.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+```python
+import matplotlib.pyplot as plt
 import matplotlib as mpl
+
 mpl.rcParams['text.usetex'] = True
+
+plt.plot([0, 1], [0, 1])
+
+plt.xlabel('$x$')
+plt.ylabel('$f(x)$')
+
+plt.title(r'$y = \int_a^b f(x)\,dx$')
+plt.grid(True)
+plt.show()
 ```
