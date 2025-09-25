@@ -7,7 +7,7 @@ tags: ["linux", "windows"]
 categories: linux
 ---
 
-Berikut ini adalah panduan singkat untuk meng-install Ubuntu 25.04 dan Windows 11 pada SSD yang berbeda namun hanya menggunakan 1 partisi EFI. Sebagai catatan, semua data yang ada di kedua disk sudah saya back-up terlebih dahulu karena panduan di bawah ini ada tahapan menghapus semua partisi.
+Berikut ini adalah panduan singkat untuk meng-install Ubuntu 25.04 dan Windows 11 pada disk SSD yang berbeda namun hanya menggunakan 1 partisi EFI. **Sebagai catatan**, kedua disk yang saya miliki ini sudah dalam kondisi terformat.
 
 Pertama kita install Windows 11 ke Disk pertama
 
