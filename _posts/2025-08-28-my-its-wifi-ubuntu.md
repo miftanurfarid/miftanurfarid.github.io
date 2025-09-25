@@ -11,6 +11,28 @@ Semua teman saya yang menggunakan OS Windows tidak menghadapi masalah saat menga
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/2025/wifi_auth.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
+</div>
+
+Poin-poin yang perlu diatur:
+- **Authentication** ganti **Protected EAP (PEAP)**.
+- Pilih (centang) **No CA certificate is required**.
+- **PEAP version** pilih **Automatic**.
+- **Inner authentication** pilih **MSCHAPv2**.
+- **Username** diisi email ITS
+- **Password** diisi password email ITS
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2025/myITS-WiFi.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
     </div>
 </div>
