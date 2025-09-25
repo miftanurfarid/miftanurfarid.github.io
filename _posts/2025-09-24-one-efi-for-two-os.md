@@ -1,53 +1,30 @@
 ---
 layout: post
-title: Satu EFI untuk Dua Operating System (Ubuntu 24.04 dan Windows 11)
+title: Satu EFI untuk Dua Operating System (Ubuntu 24.04 dan Windows 11) pada dua disk yang berbeda
 date: 2025-09-24 09:00:00
-description: Panduan singkat untuk menginstall dua oparting system atau biasa disebut sebagai Dual Boot namun hanya menggunakan satu partisi EFI.
-tags: ["linux", "git", "github"]
+description: Panduan singkat untuk menginstall dua operating system (OS) atau biasa disebut sebagai Dual Boot namun hanya menggunakan satu partisi EFI.
+tags: ["linux", "windows"]
 categories: linux
 ---
 
-Pernahkah kamu mengalami error saat melakukan `git push` ke GitHub seperti ini?
+Berikut ini adalah panduan singkat untuk meng-install Ubuntu 25.04 dan Windows 11 pada SSD yang berbeda namun hanya menggunakan 1 partisi EFI. Sebagai catatan, semua data yang ada di kedua disk sudah saya back-up terlebih dahulu karena panduan di bawah ini ada tahapan menghapus semua partisi.
 
-```bash
-remote: error: File <nama_file> is 478.79 MB; this exceeds GitHub's file size limit of 100.00 MB
-remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
-To github.com:username/repo.git
-! [remote rejected] main -> main (pre-receive hook declined)
-error: failed to push some refs to 'github.com:username/repo.git'
-```
+Pertama kita install Windows 11 ke Disk pertama
 
-Saya sendiri mengalami ini ketika mencoba mengunggah file `.mp4` berukuran hampir 500 MB ke repositori GitHub pribadi saya. Padahal, saya **tidak ingin menggunakan Git LFS** maupun **mengupload file besar tersebut ke GitHub**. Lalu bagaimana solusinya?
+- Saat masuk ke live USB windows, tekan `shift` + `f10` untuk memunculkan terminal command prompt.
+- Masuk ke diskpart, `diskpart`.
+- Cek semua disk yang ada, `list disk`.
+- Misalkan `Disk 0` adalah disk yang akan kita install Windows 11, maka `select disk 0`.
+- Hapus semua partisi, `clean`.
+- Ubah format menjadi GPT, `convert gpt`
+- Buat partisi EFI, `create partition efi size=1024`. Di sini saya menggunakan size 1 GB untuk EFI
+- Format partisi EFI ke FAT32, `format quick fs=fat32`
+- Keluar diskpart, `exit`
+- Lanjutkan proses instalasi Windows 11 hingga pada bagian pemilihan partisi sebagai tempat Windows 11, pilih partisi yang kosong (selain EFI).
+- Lanjutkan proses instalasi hingga selesai.
 
+Kita asumsikan Windows 11 sudah berhasil terpasang, lanjut install Ubuntu 25.04.
 
-1. **Batalkan commit terakhir yang berisi file besar (tanpa menghapus file-nya dari harddisk):**
-
-   ```bash
-   git reset --soft HEAD~1
-   ```
-
-2. **Hapus file dari staging area (tapi tetap ada di lokal):**
-
-   ```bash
-   git rm --cached path/to/file.mp4
-   ```
-
-3. **Commit ulang tanpa file besar:**
-
-   ```bash
-   git commit -m "Remove large video file to comply with GitHub size limits"
-   ```
-
-4. **Ignore file besar agar tidak ikut ke commit selanjutnya:**
-
-   ```bash
-   echo "*.mp4" >> .gitignore
-   git add .gitignore
-   git commit -m "Update .gitignore to exclude large files"
-   ```
-
-5. **Push ulang ke GitHub:**
-
-   ```bash
-   git push origin main
-   ```
+- Saat masuk ke live USB Ubuntu dan pada bagian Disk Setup, pilih **Manual Installation**
+- Di bagian bawah ada pilihan **Device for boot loader installation**, di sini pilih partisi EFI yang sudah ada.
+- Lanjutkan proses instalasi Ubuntu hingga selesai.
