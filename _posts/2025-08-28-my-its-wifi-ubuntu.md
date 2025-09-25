@@ -10,13 +10,11 @@ categories: linux
 Semua teman saya yang menggunakan OS Windows tidak menghadapi masalah saat mengakses my-ITS-WiFi. Connect ke myITS-WiFi, muncul pop-up username dan password, isi dengan email ITS dan passwordnya, selesai. Berbeda untuk saya yang menggunakan linux, entah mengapa tidak sesederhana itu. Seperti ini tampilan awalnya.
 
 <div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-3 mt-3 mt-md-0"></div>
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/2025/wifi_auth.png" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-    </div>
+    <div class="col-sm-3 mt-3 mt-md-0"></div>
 </div>
 
 Poin-poin yang perlu diatur:
@@ -28,11 +26,9 @@ Poin-poin yang perlu diatur:
 - **Password** diisi password email ITS
 
 <div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-3 mt-3 mt-md-0"></div>
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/2025/myITS-WiFi.png" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-    </div>
+    <div class="col-sm-3 mt-3 mt-md-0"></div>
 </div>
