@@ -20,6 +20,10 @@ My research focuses on neural networks and their applications in speech signal p
 
 I teach several courses, including numerical methods, digital signal processing, artificial intelligence, audio signal processing, and data communication.
 
-Currently, I am seeking PhD opportunities in the field of speech signal processing.
+~~Currently, I am seeking PhD opportunities in the field of speech signal processing.~~
+
+I am now pursuing a PhD in Electrical Engineering at [Institut Teknologi Sepuluh Nopember (ITS)](https://www.its.ac.id), Surabaya, Indonesia.
+
+My current doctoral research focuses on **segmentation of carotid artery ultrasound images**, aiming to improve the accuracy and efficiency of medical image analysis for cardiovascular disease assessment.
 
 If you are interested in collaborating on research, please feel free to contact me.
