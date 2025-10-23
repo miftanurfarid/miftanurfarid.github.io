@@ -59,5 +59,4 @@ flowchart TD
     %% Styling
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style U fill:#bbf,stroke:#333,stroke-width:2px
-
 ```
