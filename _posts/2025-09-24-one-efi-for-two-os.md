@@ -29,34 +29,15 @@ Kita asumsikan Windows 11 sudah berhasil terpasang, lanjut install Ubuntu 25.04.
 - Di bagian bawah ada pilihan **Device for boot loader installation**, di sini pilih partisi EFI yang sudah ada.
 - Lanjutkan proses instalasi Ubuntu hingga selesai.
 
-```mermaid
+<pre class="mermaid">
 flowchart TD
-    A[Mulai] --> B{Persiapan Disk}
-    B -->|Sudah diformat| C[Masuk ke Live USB Windows 11]
-    
-    %% Bagian Instalasi Windows 11
-    C --> D[Buka Command Prompt (Shift + F10)]
-    D --> E[Masuk ke DiskPart: ketik 'diskpart']
-    E --> F[List Disk: ketik 'list disk']
-    F --> G[Pilih disk untuk Windows 11 (misal Disk 0): 'select disk 0']
-    G --> H[Hapus semua partisi: 'clean']
-    H --> I[Ubah format menjadi GPT: 'convert gpt']
-    I --> J[Buat partisi EFI 1GB: 'create partition efi size=1024']
-    J --> K[Format partisi EFI: 'format quick fs=fat32']
-    K --> L[Keluar dari DiskPart: 'exit']
-    L --> M[Lanjutkan instalasi Windows 11]
-    M --> N[Pilih partisi kosong (selain EFI) untuk Windows]
-    N --> O[Lanjutkan instalasi Windows 11 hingga selesai]
-    
-    %% Transisi ke Instalasi Ubuntu
-    O --> P[Reboot ke Live USB Ubuntu 25.04]
-    P --> Q[Pilih Manual Installation pada Disk Setup]
-    Q --> R[Pilih partisi kosong di disk kedua untuk Ubuntu]
-    R --> S[Pilih partisi EFI yang sudah ada sebagai Device for Boot Loader Installation]
-    S --> T[Lanjutkan instalasi Ubuntu hingga selesai]
-    T --> U[Selesai – Dual Boot Windows 11 + Ubuntu 25.04 dengan satu partisi EFI]
-    
-    %% Styling
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style U fill:#bbf,stroke:#333,stroke-width:2px
-```
+     A-->B
+</pre>
+
+<script type="module">
+	import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+	mermaid.initialize({
+		startOnLoad: true,
+		theme: 'dark'
+	});
+</script>
